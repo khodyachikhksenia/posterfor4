@@ -402,6 +402,7 @@ html {
         margin-left: 19vw;
         rotate: -3deg;
         scale: 45%;
+        z-index: 5;
     }
 
     .cloud1:hover {
@@ -417,6 +418,7 @@ html {
         margin-left: 23vw;
         rotate: -3deg;
         scale: 50%;
+        z-index: 5;
 
     }
 
@@ -433,6 +435,7 @@ html {
         margin-left: 64vw;
         rotate: -10deg;
         scale: 50%;
+        z-index: 5;
 
     }
 
@@ -449,6 +452,7 @@ html {
         margin-left: -15vw;
         rotate: -3deg;
         scale: 50%;
+        z-index: 5;
     }
 
     .cloud4:hover {
@@ -464,12 +468,14 @@ html {
         margin-left: -11vw;
         rotate: -3deg;
         scale: 50%;
+        z-index: 5;
     }
 
     .cloud5:hover {
         scale: 100%;
     }
 
+   
     /* 4 рамка */
 
     .time1 {
@@ -480,6 +486,7 @@ html {
         margin-top: -192vw;
         margin-left: 74vw;
         animation: t1 infinite 1s linear;
+        z-index: 6;
     }
 
     @keyframes t1{
@@ -506,6 +513,7 @@ html {
         margin-left: 75vw;
         rotate: 42deg;
         animation: t2 infinite 1s linear;
+        z-index: 6;
 }
     
     
@@ -531,6 +539,7 @@ html {
         margin-left: 46vw;
         rotate: 68deg;
         animation: t3 infinite 1s linear;
+        z-index: 6;
     }
 
     @keyframes t3{
@@ -554,6 +563,7 @@ html {
         margin-left: 32vw;
         rotate: -40deg;
         animation: t4 infinite 1s linear;
+        z-index: 6;
     }
 
     @keyframes t4{
@@ -579,6 +589,7 @@ html {
         margin-left: 63vw;
         rotate: 10deg;
         animation: t5 infinite 1s linear;
+        z-index: 6;
     }
 
     @keyframes t5{
@@ -603,6 +614,7 @@ html {
         margin-left: 21vw;
         rotate: 0deg;
         animation: t6 infinite 1s linear;
+        z-index: 6;
 
     }
 
@@ -639,6 +651,7 @@ html {
         color: rgb(0, 0, 0);
         font-family: "IBMPlexMono-SemiBold";
         font-style: italic;
+        z-index: 6;
     }
 
         .none{ cursor: none;}
@@ -646,13 +659,14 @@ html {
         .cursor {
             position: absolute;
             border-radius: 100%;
-            z-index: 1;
+           
             
         }
 
         .cursor2 {
             width: 5vw;
             height: 5vw;
+        
            
         } 
 
@@ -715,6 +729,6 @@ html {
         margin-left: 1vw;
         margin-top: 0vw;
         position: fixed; 
-        z-index: 10;
+        z-index: 3;
      }
     
